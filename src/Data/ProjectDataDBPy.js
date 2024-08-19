@@ -1,9 +1,7 @@
-import cryptzy from '../assets/cryptzzy.png'
-import JapanPrediction  from '../assets/JapanPrediction .png'
-import notes from "../assets/notes_app.png"
+
 import Hoomyz from '../assets/Hoomyz.png'
-import Twitzy from '../assets/Twitzy.png'
-import TextEditzy from "../assets/TextEditor.png"
+import tetris from '../assets/tetris.png'
+import cb from '../assets/cb.png'
 
 
 
@@ -14,7 +12,7 @@ import TextEditzy from "../assets/TextEditor.png"
             desc: "This is a 2D - multiplayer online game where players control characters represented by sprites on a shared screen. The game utilizes the Pygame library for graphics, networking functionality for communication between players, and OOPS for code organization, reusability, and extensibility. The game is built on the Object Oriented Structure using TCP/IP protocol. ",
             github_link : "https://github.com/PiPanther/Coin-Base",
             
-            img : Hoomyz,
+            img : cb,
         },
         {
             name: "Tourism Destination Recommender",
@@ -28,7 +26,7 @@ import TextEditzy from "../assets/TextEditor.png"
             desc: "This project aims to develop a robust tourism destination recommender system leveraging user preferences, travel history, and ratings. Built using SQL, Python, and the Thinkter library, this recommender system provides personalized recommendations for travelers seeking new destinations to explore.",
             github_link : "https://github.com/PiPanther/Terminal-Tetris-Game-",
             
-            img : Hoomyz,
+            img : tetris,
         },
         
 ]

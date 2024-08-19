@@ -20,20 +20,17 @@ export const Hero = () => {
             null
         }
         <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative">
-            <div className='md:w-3/6 md:p-4 rounded'>
-                <img data-aos="flip-right" data-aos-duration="1500" data-aos-offset="200"  src={gif} alt="profile" onLoad={() => setLoaded(false)} />
-            </div>
-            <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
+        <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
             <div className="flex flex-col w-full mt-16">
             <h1 className="text-3xl text-gray-400">Hi, I'm</h1>
             <h1 className="text-6xl font-bold">Ashish Kumar</h1>
-            <p className="text-2xl font-bold text-gray-300">a Flutter Developer and SDE</p>
+            <p className="text-2xl font-bold text-gray-300">SDE & Flutter Developer </p>
             <p className="text-lg font-light text-gray-400">Passionate in Flutter, driven by a passion for innovative solutions and continuous learning.</p>
-        </div>
+            </div>
 
                
                 
-                <ul className='flex mt-2 gap-4 items-center'>
+                <ul className='flex mt-3 gap-5 items-center'>
                    <li>
                         <a href='https://github.com/PiPanther' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                    </li> 
@@ -46,6 +43,8 @@ export const Hero = () => {
                     
                 </ul>
             </div>
+            
+         
 
         </div>
     </>
