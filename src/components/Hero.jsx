@@ -1,15 +1,14 @@
 import React , { useState} from 'react'
-import hr from '../assets/curve-hr.svg'
-import gif from '../assets/f.gif'
+
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faGithub, faLinkedinIn, faTwitter, faCodepen } from "@fortawesome/free-brands-svg-icons";
-import { SiCodeforces } from "react-icons/si";
+
 
 
 export const Hero = () => {
-    const [loaded, setLoaded] = useState(true);
+    const [loaded, setLoaded] = useState(false);
   return (
     <>
      {loaded ?
@@ -18,7 +17,7 @@ export const Hero = () => {
         >Loading...</div>
             :
             null
-        }
+        }   
         <div id="home" className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative">
         <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
             <div className="flex flex-col w-full mt-16">

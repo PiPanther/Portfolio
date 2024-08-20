@@ -24,7 +24,6 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
-      {/* <Mailme /> */}
       <Footer />
     </div>
   );
