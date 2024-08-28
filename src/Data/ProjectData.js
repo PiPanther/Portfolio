@@ -1,20 +1,24 @@
-import cryptzy from '../assets/cryptzzy.png'
-import JapanPrediction  from '../assets/JapanPrediction .png'
 
 import TextEditzy from "../assets/TextEditor.png"
 import notes from "../assets/notesapp.png"
 import stocks from "../assets/stocks.png"
 import news from "../assets/news.jpg"
+import doclab from "../assets/doclab.png"
 
 
 
 
  const ProjectdataFlutter = [
+    {
+        name: "Doclab",
+        desc: "Developed a collaborative Flutter web and Android app with Google Authentication, leveraging Node.js for the backend, MongoDB for database management, and Riverpod for state management.",
+        github_link : "https://github.com/PiPanther/Doclab",
+        img : doclab,
+    },
         {
             name: "CommunityX",
             desc: "Developed CommunityX, a responsive social media app with features like user authentication (Google Sign-In and guest login), community management (creation, editing, profile updates), and post interactions (sharing, upvoting, downvoting, commenting, deleting). The app supports dark and light mode toggling and ensures accessibility across platforms. ",
             github_link : "https://github.com/PiPanther/CommunityX",
-            
             img : notes,
         },
         {
