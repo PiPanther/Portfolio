@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -8,7 +7,7 @@ import { Hero } from "./components/Hero";
 import { Skills } from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Mailme from "./components/Mailme";
+import Timeline from "./components/Timeline"
 
 function App() {
   useEffect(() => {
@@ -25,6 +24,7 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
+      <Timeline />
     </div>
   );
 }
