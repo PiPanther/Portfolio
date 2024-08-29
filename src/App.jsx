@@ -21,10 +21,11 @@ function App() {
 
       <Navbar />
       <Hero />
+      <Timeline />
       <Skills />
       <Projects />
       <Footer />
-      <Timeline />
+      
     </div>
   );
 }
