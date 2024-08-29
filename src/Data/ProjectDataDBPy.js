@@ -23,7 +23,7 @@ import cb from '../assets/cb.png'
         },
         {
             name: "Terminal Tetris ",
-            desc: "This project aims to develop a robust tourism destination recommender system leveraging user preferences, travel history, and ratings. Built using SQL, Python, and the Thinkter library, this recommender system provides personalized recommendations for travelers seeking new destinations to explore.",
+            desc: "The Terminal Tetris project is a console-based version of the classic game, developed using Python's `curses` library. It features a modular code structure and employs object-oriented programming (OOP) principles to manage game elements efficiently. This project offers a fully interactive experience directly in the terminal.",
             github_link : "https://github.com/PiPanther/Terminal-Tetris-Game-",
             
             img : tetris,
