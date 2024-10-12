@@ -9,6 +9,12 @@ import doclab from "../assets/doclab.png"
 
 
  const ProjectdataFlutter = [
+  {
+        name: "ReliefConnect",
+        desc: "Designed and implemented a disaster response application, utilising Google Location Serives, Firebase as Database and Riverpod for State Management. Campaign features are also integrated with UPI Payment integration.",
+        github_link : "https://github.com/PiPanther/ReliefConnect",
+        img : doclab,
+    },
     {
         name: "Doclab",
         desc: "Developed a collaborative Flutter web and Android app with Google Authentication, leveraging Node.js for the backend, MongoDB for database management, and Riverpod for state management.",
