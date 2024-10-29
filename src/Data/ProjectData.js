@@ -4,6 +4,7 @@ import notes from "../assets/notesapp.png"
 import stocks from "../assets/stocks.png"
 import news from "../assets/news.jpg"
 import doclab from "../assets/doclab.png"
+import rc from "../assets/rc.png"
 
 
 
@@ -13,7 +14,7 @@ import doclab from "../assets/doclab.png"
         name: "ReliefConnect",
         desc: "Designed and implemented a disaster response application, utilising Google Location Serives, Firebase as Database and Riverpod for State Management. Campaign features are also integrated with UPI Payment integration.",
         github_link : "https://github.com/PiPanther/ReliefConnect",
-        img : doclab,
+        img : rc,
     },
     {
         name: "Doclab",
